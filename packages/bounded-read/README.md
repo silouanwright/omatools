@@ -6,7 +6,7 @@ with `O_NONBLOCK`, verifies regular-file type and ownership on the descriptor,
 and emits no partial output when the file exceeds its limit.
 
 ```bash
-vendor/omapack/bounded-read/bin/bounded-read --max-bytes 65536 /absolute/path
+vendor/qmlpack/bounded-read/bin/bounded-read --max-bytes 65536 /absolute/path
 ```
 
 The helper is intentionally small and depends only on Python 3's standard
