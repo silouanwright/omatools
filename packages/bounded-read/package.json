@@ -1,0 +1,20 @@
+{
+  "name": "@silouanwright/bounded-read",
+  "version": "0.2.0",
+  "description": "Descriptor-safe bounded regular-file reader",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silouanwright/omatools.git",
+    "directory": "packages/bounded-read"
+  },
+  "files": [
+    "qmlpack.json",
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

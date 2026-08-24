@@ -1,0 +1,21 @@
+{
+  "name": "@silouanwright/oma-ui",
+  "version": "0.2.0",
+  "description": "Keyboard-first QML controls for Omarchy plugins",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silouanwright/omatools.git",
+    "directory": "packages/oma-ui"
+  },
+  "files": [
+    "qmlpack.json",
+    "Ui",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
