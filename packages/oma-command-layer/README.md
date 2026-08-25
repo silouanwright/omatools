@@ -4,7 +4,7 @@ Add configurable, window-scoped command shortcuts and visually positioned key
 hints to an Omarchy QML panel.
 
 ```bash
-qmlpack add oma-command-layer github:silouanwright/omatools/packages/oma-command-layer@0.2.0
+qmlpack add oma-command-layer github:silouanwright/omatools/packages/oma-command-layer@0.2.1
 ```
 
 The package keeps shortcuts local to the focused panel, suspends them while an

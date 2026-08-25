@@ -5,6 +5,7 @@ Item {
   id: root
 
   property url source
+  property size tileSize: Qt.size(64, 64)
   property color backgroundColor: Color.popups.background
   property real patternOpacity: 0.035
 
@@ -16,6 +17,7 @@ Item {
     anchors.fill: parent
     visible: root.hasPattern
     source: root.source
+    sourceSize: root.tileSize
     fillMode: Image.Tile
     opacity: root.patternOpacity
   }

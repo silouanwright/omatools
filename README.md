@@ -15,7 +15,7 @@ Keyboard-first QML controls that compose Omarchy's native theme and UI system.
 Includes settings rows, tabs, key hints, icon controls, and action buttons.
 
 ```bash
-qmlpack add oma-ui-kit github:silouanwright/omatools/packages/oma-ui-kit@0.1.0
+qmlpack add oma-ui-kit github:silouanwright/omatools/packages/oma-ui-kit@0.1.1
 ```
 
 ### [bounded-read](packages/bounded-read)
@@ -35,7 +35,7 @@ panels. It handles shortcut normalization, duplicate recovery, input
 suspension, and focus-safe behavior when another Omarchy panel opens.
 
 ```bash
-qmlpack add oma-command-layer github:silouanwright/omatools/packages/oma-command-layer@0.2.0
+qmlpack add oma-command-layer github:silouanwright/omatools/packages/oma-command-layer@0.2.1
 ```
 
 ### [oma-showcase](packages/oma-showcase)
