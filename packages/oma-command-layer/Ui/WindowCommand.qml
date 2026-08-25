@@ -3,12 +3,12 @@ import QtQuick
 Shortcut {
   id: root
 
-  required property CommandLayer layer
+  required property CommandLayer commandLayer
   property bool available: true
 
   signal invoked()
 
   context: Qt.WindowShortcut
-  enabled: layer.acceptingCommands && available
+  enabled: commandLayer.acceptingCommands && available
   onActivated: invoked()
 }

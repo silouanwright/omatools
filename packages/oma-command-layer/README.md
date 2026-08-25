@@ -18,7 +18,7 @@ OmaCommands.CommandLayer {
   hintsVisible: settings.showKeyboardHints
 
   OmaCommands.WindowCommand {
-    layer: commands
+    commandLayer: commands
     sequence: "?"
     onInvoked: commands.toggleHints()
   }

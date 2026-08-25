@@ -4,14 +4,14 @@ import "../../oma-ui/Ui" as OmaUi
 Item {
   id: root
 
-  required property CommandLayer layer
+  required property CommandLayer commandLayer
   required property string keyText
   property bool available: true
   property bool placeRight: false
   property bool centerOnCorner: false
 
   anchors.fill: parent
-  visible: layer.hintsVisible
+  visible: commandLayer.hintsVisible
   z: 20
 
   OmaUi.KeyHintBadge {
