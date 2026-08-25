@@ -9,13 +9,13 @@ runtime package manager and no hidden installation step.
 
 ## Packages
 
-### [oma-ui](packages/oma-ui)
+### [oma-ui-kit](packages/oma-ui-kit)
 
 Keyboard-first QML controls that compose Omarchy's native theme and UI system.
 Includes settings rows, tabs, key hints, icon controls, and action buttons.
 
 ```bash
-qmlpack add oma-ui github:silouanwright/omatools/packages/oma-ui@0.2.0
+qmlpack add oma-ui-kit github:silouanwright/omatools/packages/oma-ui-kit@0.1.0
 ```
 
 ### [bounded-read](packages/bounded-read)
@@ -35,7 +35,7 @@ panels. It handles shortcut normalization, duplicate recovery, input
 suspension, and focus-safe behavior when another Omarchy panel opens.
 
 ```bash
-qmlpack add oma-command-layer github:silouanwright/omatools/packages/oma-command-layer@0.1.0
+qmlpack add oma-command-layer github:silouanwright/omatools/packages/oma-command-layer@0.2.0
 ```
 
 ### [oma-showcase](packages/oma-showcase)
