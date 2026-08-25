@@ -8,6 +8,7 @@ Packages are independently released and consumed with
 
 - `oma-ui`: keyboard-first QML compositions built on Omarchy's native UI.
 - `bounded-read`: safely emits a bounded, descriptor-validated regular file.
+- `oma-showcase`: renders Retina-ready QML previews across Omarchy themes.
 
 Each package owns its `qmlpack.json` and release tags. For example:
 

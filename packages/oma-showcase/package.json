@@ -1,0 +1,15 @@
+{
+  "name": "@silouanwright/oma-showcase",
+  "version": "0.1.0",
+  "description": "Offscreen multi-theme showcase renderer for Omarchy QML plugins",
+  "license": "MIT",
+  "files": [
+    "README.md",
+    "qmlpack.json",
+    "bin/oma-showcase",
+    "qml/Capture.qml"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
