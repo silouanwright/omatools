@@ -1,6 +1,6 @@
 {
   "name": "@silouanwright/oma-command-layer",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Keyboard command layers for Omarchy QML panels",
   "license": "MIT",
   "files": [
