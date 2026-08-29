@@ -1,3 +1,5 @@
+pragma ComponentBehavior: Bound
+
 import QtQuick
 import QtQuick.Controls
 import qs.Commons
@@ -102,8 +104,9 @@ Item {
       activeFocusOnTab: true
 
       Accessible.role: Accessible.ComboBox
-      Accessible.name: root.accessibleLabel
-      Accessible.description: root.accessibleDescription
+      Accessible.name: qsTr("%1, %2").arg(root.accessibleLabel).arg(root.currentLabel())
+      Accessible.description: root.accessibleDescription + (root.accessibleDescription === "" ? "" : ". ")
+        + (popup.opened ? qsTr("Expanded") : qsTr("Collapsed"))
       Accessible.focusable: true
       Accessible.onPressAction: root.toggle()
 
@@ -179,6 +182,8 @@ Item {
           optionList.currentIndex = Math.max(0, optionList.indexOfValue(root.value))
           optionList.forceActiveFocus()
         }
+        onClosed: if (root.visible && trigger.visible)
+          Qt.callLater(function() { trigger.forceActiveFocus() })
 
         contentItem: ListView {
           id: optionList
