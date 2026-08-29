@@ -19,6 +19,12 @@ Button {
   implicitHeight: labelText.implicitHeight + verticalPadding * 2 + Math.max(2, Style.normalBorderWidth * 2)
   opacity: actionEnabled ? 1 : 0.42
 
+  Accessible.role: Accessible.Button
+  Accessible.name: label
+  Accessible.description: !actionEnabled ? disabledTooltipText : ""
+  Accessible.focusable: focusable
+  Accessible.onPressAction: activate()
+
   Behavior on opacity { NumberAnimation { duration: 120 } }
 
   Text {
